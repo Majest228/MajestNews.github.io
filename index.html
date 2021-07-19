@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                </div>
+                <nav>
+                    <ul class="header__ul">
+                        <li class="header__li">
+                            <a class="header__a" href="">HOME</a>
+                        </li>
+                        <li class="header__li">
+                            <a class="header__a" href="">ABOUT</a>
+                        </li>
+                        <li class="header__li">
+                            <a class="header__a" href="">CONTACTS</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <button class="header__btn">Sign up</button>
+                    <button class="header__btn">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="search">
+        <div class="container">
+            <div class="card">
+
+                <form name="newsControls">
+                    <div class="card__title">
+                        <span class="card__title-span">
+                            Поиск новостей
+                        </span>
+                        <div class="changes__language">
+                            <label>Выбрать язык:</label>
+                        </div>
+                        <div class="input__field">
+                            <select class="fileds" name="country" id="country">
+                                <option value="eng">English</option>
+                                <option value="ru">Russian</option>
+                            </select>
+                        </div>
+                        <div class="input__field">
+                            <input class="fileds" type="text" id="autocomplete-input" class="autocomplete" name="search"
+                                placeholder="Поиск">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card__button">
+                        <button class="card__button-btn" type="submit" name="action">Поиск</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <section class="news">
+            <div class="container">
+                <div class="news__content">
+
+                </div>
+            </div>
+        </section>
+
+        <script src="./main.js"></script>
+</body>
+
+</html>
